@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		136559F518C3259200F69371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136559F418C3259200F69371 /* Foundation.framework */; };
+		136559F718C3259200F69371 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136559F618C3259200F69371 /* CoreGraphics.framework */; };
+		136559F918C3259200F69371 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136559F818C3259200F69371 /* UIKit.framework */; };
+		136559FF18C3259200F69371 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 136559FD18C3259200F69371 /* InfoPlist.strings */; };
+		13655A0118C3259200F69371 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13655A0018C3259200F69371 /* main.m */; };
+		13655A0518C3259200F69371 /* MRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13655A0418C3259200F69371 /* MRAppDelegate.m */; };
+		13655A0818C3259200F69371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13655A0618C3259200F69371 /* Main.storyboard */; };
+		13655A0B18C3259200F69371 /* MRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13655A0A18C3259200F69371 /* MRViewController.m */; };
+		13655A0D18C3259200F69371 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13655A0C18C3259200F69371 /* Images.xcassets */; };
+		13655A1418C3259200F69371 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13655A1318C3259200F69371 /* XCTest.framework */; };
+		13655A1518C3259200F69371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136559F418C3259200F69371 /* Foundation.framework */; };
+		13655A1618C3259200F69371 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136559F818C3259200F69371 /* UIKit.framework */; };
+		13655A1E18C3259200F69371 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13655A1C18C3259200F69371 /* InfoPlist.strings */; };
+		13655A2018C3259200F69371 /* Age_of_LaikaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13655A1F18C3259200F69371 /* Age_of_LaikaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13655A1718C3259200F69371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 136559E918C3259200F69371 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 136559F018C3259200F69371;
+			remoteInfo = "Age of Laika";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		136559F118C3259200F69371 /* Age of Laika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Age of Laika.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		136559F418C3259200F69371 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		136559F618C3259200F69371 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		136559F818C3259200F69371 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		136559FC18C3259200F69371 /* Age of Laika-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Age of Laika-Info.plist"; sourceTree = "<group>"; };
+		136559FE18C3259200F69371 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13655A0018C3259200F69371 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13655A0218C3259200F69371 /* Age of Laika-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Age of Laika-Prefix.pch"; sourceTree = "<group>"; };
+		13655A0318C3259200F69371 /* MRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRAppDelegate.h; sourceTree = "<group>"; };
+		13655A0418C3259200F69371 /* MRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRAppDelegate.m; sourceTree = "<group>"; };
+		13655A0718C3259200F69371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13655A0918C3259200F69371 /* MRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRViewController.h; sourceTree = "<group>"; };
+		13655A0A18C3259200F69371 /* MRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRViewController.m; sourceTree = "<group>"; };
+		13655A0C18C3259200F69371 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13655A1218C3259200F69371 /* Age of LaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Age of LaikaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13655A1318C3259200F69371 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		13655A1B18C3259200F69371 /* Age of LaikaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Age of LaikaTests-Info.plist"; sourceTree = "<group>"; };
+		13655A1D18C3259200F69371 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13655A1F18C3259200F69371 /* Age_of_LaikaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Age_of_LaikaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		136559EE18C3259200F69371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136559F718C3259200F69371 /* CoreGraphics.framework in Frameworks */,
+				136559F918C3259200F69371 /* UIKit.framework in Frameworks */,
+				136559F518C3259200F69371 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13655A0F18C3259200F69371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13655A1418C3259200F69371 /* XCTest.framework in Frameworks */,
+				13655A1618C3259200F69371 /* UIKit.framework in Frameworks */,
+				13655A1518C3259200F69371 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		136559E818C3259200F69371 = {
+			isa = PBXGroup;
+			children = (
+				136559FA18C3259200F69371 /* Age of Laika */,
+				13655A1918C3259200F69371 /* Age of LaikaTests */,
+				136559F318C3259200F69371 /* Frameworks */,
+				136559F218C3259200F69371 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		136559F218C3259200F69371 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				136559F118C3259200F69371 /* Age of Laika.app */,
+				13655A1218C3259200F69371 /* Age of LaikaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		136559F318C3259200F69371 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				136559F418C3259200F69371 /* Foundation.framework */,
+				136559F618C3259200F69371 /* CoreGraphics.framework */,
+				136559F818C3259200F69371 /* UIKit.framework */,
+				13655A1318C3259200F69371 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		136559FA18C3259200F69371 /* Age of Laika */ = {
+			isa = PBXGroup;
+			children = (
+				13655A0318C3259200F69371 /* MRAppDelegate.h */,
+				13655A0418C3259200F69371 /* MRAppDelegate.m */,
+				13655A0618C3259200F69371 /* Main.storyboard */,
+				13655A0918C3259200F69371 /* MRViewController.h */,
+				13655A0A18C3259200F69371 /* MRViewController.m */,
+				13655A0C18C3259200F69371 /* Images.xcassets */,
+				136559FB18C3259200F69371 /* Supporting Files */,
+			);
+			path = "Age of Laika";
+			sourceTree = "<group>";
+		};
+		136559FB18C3259200F69371 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				136559FC18C3259200F69371 /* Age of Laika-Info.plist */,
+				136559FD18C3259200F69371 /* InfoPlist.strings */,
+				13655A0018C3259200F69371 /* main.m */,
+				13655A0218C3259200F69371 /* Age of Laika-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13655A1918C3259200F69371 /* Age of LaikaTests */ = {
+			isa = PBXGroup;
+			children = (
+				13655A1F18C3259200F69371 /* Age_of_LaikaTests.m */,
+				13655A1A18C3259200F69371 /* Supporting Files */,
+			);
+			path = "Age of LaikaTests";
+			sourceTree = "<group>";
+		};
+		13655A1A18C3259200F69371 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13655A1B18C3259200F69371 /* Age of LaikaTests-Info.plist */,
+				13655A1C18C3259200F69371 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		136559F018C3259200F69371 /* Age of Laika */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13655A2318C3259200F69371 /* Build configuration list for PBXNativeTarget "Age of Laika" */;
+			buildPhases = (
+				136559ED18C3259200F69371 /* Sources */,
+				136559EE18C3259200F69371 /* Frameworks */,
+				136559EF18C3259200F69371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Age of Laika";
+			productName = "Age of Laika";
+			productReference = 136559F118C3259200F69371 /* Age of Laika.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13655A1118C3259200F69371 /* Age of LaikaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13655A2618C3259200F69371 /* Build configuration list for PBXNativeTarget "Age of LaikaTests" */;
+			buildPhases = (
+				13655A0E18C3259200F69371 /* Sources */,
+				13655A0F18C3259200F69371 /* Frameworks */,
+				13655A1018C3259200F69371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13655A1818C3259200F69371 /* PBXTargetDependency */,
+			);
+			name = "Age of LaikaTests";
+			productName = "Age of LaikaTests";
+			productReference = 13655A1218C3259200F69371 /* Age of LaikaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		136559E918C3259200F69371 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MR;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Mark Rabins";
+				TargetAttributes = {
+					13655A1118C3259200F69371 = {
+						TestTargetID = 136559F018C3259200F69371;
+					};
+				};
+			};
+			buildConfigurationList = 136559EC18C3259200F69371 /* Build configuration list for PBXProject "Age of Laika" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 136559E818C3259200F69371;
+			productRefGroup = 136559F218C3259200F69371 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				136559F018C3259200F69371 /* Age of Laika */,
+				13655A1118C3259200F69371 /* Age of LaikaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		136559EF18C3259200F69371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13655A0D18C3259200F69371 /* Images.xcassets in Resources */,
+				136559FF18C3259200F69371 /* InfoPlist.strings in Resources */,
+				13655A0818C3259200F69371 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13655A1018C3259200F69371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13655A1E18C3259200F69371 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		136559ED18C3259200F69371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13655A0118C3259200F69371 /* main.m in Sources */,
+				13655A0B18C3259200F69371 /* MRViewController.m in Sources */,
+				13655A0518C3259200F69371 /* MRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13655A0E18C3259200F69371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13655A2018C3259200F69371 /* Age_of_LaikaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13655A1818C3259200F69371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 136559F018C3259200F69371 /* Age of Laika */;
+			targetProxy = 13655A1718C3259200F69371 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		136559FD18C3259200F69371 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				136559FE18C3259200F69371 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13655A0618C3259200F69371 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13655A0718C3259200F69371 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13655A1C18C3259200F69371 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13655A1D18C3259200F69371 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13655A2118C3259200F69371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13655A2218C3259200F69371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13655A2418C3259200F69371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Age of Laika/Age of Laika-Prefix.pch";
+				INFOPLIST_FILE = "Age of Laika/Age of Laika-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13655A2518C3259200F69371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Age of Laika/Age of Laika-Prefix.pch";
+				INFOPLIST_FILE = "Age of Laika/Age of Laika-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		13655A2718C3259200F69371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Age of Laika.app/Age of Laika";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Age of Laika/Age of Laika-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Age of LaikaTests/Age of LaikaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		13655A2818C3259200F69371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Age of Laika.app/Age of Laika";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Age of Laika/Age of Laika-Prefix.pch";
+				INFOPLIST_FILE = "Age of LaikaTests/Age of LaikaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		136559EC18C3259200F69371 /* Build configuration list for PBXProject "Age of Laika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13655A2118C3259200F69371 /* Debug */,
+				13655A2218C3259200F69371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13655A2318C3259200F69371 /* Build configuration list for PBXNativeTarget "Age of Laika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13655A2418C3259200F69371 /* Debug */,
+				13655A2518C3259200F69371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13655A2618C3259200F69371 /* Build configuration list for PBXNativeTarget "Age of LaikaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13655A2718C3259200F69371 /* Debug */,
+				13655A2818C3259200F69371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 136559E918C3259200F69371 /* Project object */;
+}
