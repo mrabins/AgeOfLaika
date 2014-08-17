@@ -10,4 +10,18 @@
 
 @interface MRViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *yearsLabel;
+@property (strong, nonatomic) IBOutlet UITextField *yearsTextField;
+@property (strong, nonatomic) IBOutlet UILabel *realYearsLabel;
+
+- (IBAction)convertToDogYearsButtonPressed:(UIButton *)sender;
+- (IBAction)convertToRealDogYearsButtonPressed:(UIButton *)sender;
+
+
 @end
+
+
+
+
+
+

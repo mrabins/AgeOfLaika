@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1314371718C473430036A496 /* laika-space-dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1314371618C473430036A496 /* laika-space-dog.jpg */; };
 		136559F518C3259200F69371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136559F418C3259200F69371 /* Foundation.framework */; };
 		136559F718C3259200F69371 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136559F618C3259200F69371 /* CoreGraphics.framework */; };
 		136559F918C3259200F69371 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136559F818C3259200F69371 /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1314371618C473430036A496 /* laika-space-dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "laika-space-dog.jpg"; sourceTree = "<group>"; };
 		136559F118C3259200F69371 /* Age of Laika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Age of Laika.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		136559F418C3259200F69371 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		136559F618C3259200F69371 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +119,7 @@
 				13655A0618C3259200F69371 /* Main.storyboard */,
 				13655A0918C3259200F69371 /* MRViewController.h */,
 				13655A0A18C3259200F69371 /* MRViewController.m */,
+				1314371618C473430036A496 /* laika-space-dog.jpg */,
 				13655A0C18C3259200F69371 /* Images.xcassets */,
 				136559FB18C3259200F69371 /* Supporting Files */,
 			);
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1314371718C473430036A496 /* laika-space-dog.jpg in Resources */,
 				13655A0D18C3259200F69371 /* Images.xcassets in Resources */,
 				136559FF18C3259200F69371 /* InfoPlist.strings in Resources */,
 				13655A0818C3259200F69371 /* Main.storyboard in Resources */,
@@ -461,6 +465,7 @@
 				13655A2518C3259200F69371 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13655A2618C3259200F69371 /* Build configuration list for PBXNativeTarget "Age of LaikaTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +474,7 @@
 				13655A2818C3259200F69371 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
